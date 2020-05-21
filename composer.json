@@ -1,0 +1,26 @@
+{
+    "name": "elderbraum/bookish-goodies",
+    "type": "wp-plugin",
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.9",
+        "php-di/php-di": "^6.1",
+        "dusank/knapsack": "^10.0",
+        "monolog/monolog": "^2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "vimeo/psalm": "^3.11",
+        "phpstan/phpstan": "^0.12.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elderbraum\\BookishGoodies\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pridestalker",
+            "email": "6103741+Pridestalker@users.noreply.github.com"
+        }
+    ]
+}
